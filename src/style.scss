@@ -1,0 +1,178 @@
+body, button, input, textarea {
+    color: #666;
+    font-family: "Open Sans",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 1.75em;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.logo__container {
+
+    #pizzaro-logo {
+        fill: #fff;
+        font-size: 3px;
+        width: 185px;
+        margin: 17px 0px;
+    }
+}
+
+header {
+    background-color: #c12527;
+    padding-top: 20px;
+}
+
+#header {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid #c83b3f;
+}
+
+.nav {
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        padding-left: unset;
+}
+
+    &__items {
+        list-style-type: none;
+        padding: 13px;
+        font-size: .80rem;
+        font-weight: 600;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__address {
+        display: flex;
+        color: #fff;
+        justify-content: space-around;
+
+        p, select {
+            font-weight: normal;
+            font-size: 0.8rem;
+            border: none;
+            color: #fff;
+            background-color: #c12527;
+        }
+        
+        p {
+            margin-right: 5px;
+            color: #ed9223;
+        }
+
+        select:hover {
+            border: none;
+        }
+    }
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-weight: 800;
+        letter-spacing: -1px;
+    }
+}
+
+.add-to-cart {
+    color: #fff;
+    align-self: center;
+
+    &__container {
+        width: 235px;
+    }
+
+    i {
+        position: absolute;
+        padding: 15px 10px;
+        font-size: 24px;
+        margin-left: 23px;
+    }
+    &__btn {
+        background-color: #8ca93e;
+        width: 100%;
+        padding: 20px 10px;
+        color: #fff;
+        font-size: 0.7rem;
+        border: none;
+        border-radius: 37px;
+        font-weight: 800;
+    }
+}
+
+// Header Navigation
+
+.header--nav {
+
+
+    .order-product {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0px auto;
+        padding: 20px 0px;
+
+        li {
+            display: flex;
+            i {
+                color: #ebafc7;
+                font-size: 40px;
+
+            }
+            a {
+                color: #ebafc7;
+                align-self: center;
+                font-size: .90rem;
+                padding: 0px 10px;
+            }
+        }
+    }
+}
+
+.paralax {
+    background-image: url("../src/assets/img/05-HomePage-FullWidth.jpg");
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    display: flex;
+
+    &__container {
+        margin: auto;
+    }
+
+    &__text-1 {
+        color: #e63434;
+    }
+
+    &__text-2 {
+        color: #fff;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}

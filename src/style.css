@@ -1,0 +1,153 @@
+body, button, input, textarea {
+  color: #666;
+  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.75em;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo__container #pizzaro-logo {
+  fill: #fff;
+  font-size: 3px;
+  width: 185px;
+  margin: 17px 0px;
+}
+
+header {
+  background-color: #c12527;
+  padding-top: 20px;
+}
+
+#header {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-bottom: 1px solid #c83b3f;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: unset;
+}
+.nav__items {
+  list-style-type: none;
+  padding: 13px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.nav__items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact__address {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+}
+.contact__address p, .contact__address select {
+  font-weight: normal;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background-color: #c12527;
+}
+.contact__address p {
+  margin-right: 5px;
+  color: #ed9223;
+}
+.contact__address select:hover {
+  border: none;
+}
+.contact h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.add-to-cart {
+  color: #fff;
+  align-self: center;
+}
+.add-to-cart__container {
+  width: 235px;
+}
+.add-to-cart i {
+  position: absolute;
+  padding: 15px 10px;
+  font-size: 24px;
+  margin-left: 23px;
+}
+.add-to-cart__btn {
+  background-color: #8ca93e;
+  width: 100%;
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 37px;
+  font-weight: 800;
+}
+
+.header--nav .order-product {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.header--nav .order-product li {
+  display: flex;
+}
+.header--nav .order-product li i {
+  color: #ebafc7;
+  font-size: 40px;
+}
+.header--nav .order-product li a {
+  color: #ebafc7;
+  align-self: center;
+  font-size: 0.9rem;
+  padding: 0px 10px;
+}
+
+.paralax {
+  background-image: url("../src/assets/img/05-HomePage-FullWidth.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+.paralax__container {
+  margin: auto;
+}
+.paralax__text-1 {
+  color: #e63434;
+}
+.paralax__text-2 {
+  color: #fff;
+}
+.paralax h1 {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
