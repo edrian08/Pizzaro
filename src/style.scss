@@ -216,12 +216,39 @@ header {
 
     &__container-1 {
         background-image: url("../src/assets/img/2.jpg");
-        width: 47%;
+        width: 48%;
         background-repeat: no-repeat;
+
+        .banner-text--1 {
+            font-family: "Yanone Kaffeesatz";
+            padding: 60px 50px 0px;
+            font-size: 4rem;
+            color: #fff;
+        }
+
+        .banner-text--2 {
+            font-family: "Yanone Kaffeesatz";
+            padding: 33px 50px 0px;
+            font-size: 3rem;
+            font-weight: 100;
+            color: #fff;
+        }
+
+        .banner-button--1 {
+            padding: 5px 25px;
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin: 18px 50px 0px;
+            color: #fff;
+            font-family: "Yanone Kaffeesatz";
+            border-radius: 9px;
+            background-color: #c12527;
+            border: none;
+        }
     }
 
     &__container-2 {
-        width: 47%;
+        width: 48%;
 
         .container-2--child-1 {
             display: flex;
@@ -232,6 +259,35 @@ header {
                 background-repeat: no-repeat;
                 width: 47%;
                 height: 210px;
+                text-align:center;
+
+                .banner-text--1 {
+                    font-family: "Yanone Kaffeesatz";
+                    padding-top: 37px;
+                    margin-left: 75px;
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: #fff;
+                }
+
+                .banner-text--2 {
+                    font-family: "Yanone Kaffeesatz";
+                    padding-top: 10px;
+                    margin-left: 75px;
+                    font-size: 2rem;
+                    font-weight: 300;
+                    color: #fff;
+                }
+
+                .banner-text--3 {
+                    font-family: "Yanone Kaffeesatz";
+                    padding: 5px 27px;
+                    line-height: 20px;
+                    margin-left: 73px;
+                    font-size: .85rem;
+                    font-weight: 500;
+                    color: #fff;
+                }
             }
 
             .container2__banner-2 {
@@ -240,7 +296,37 @@ header {
                 background-position: center center;
                 height: 210px;
                 width: 47%;
+                text-align: center;
                 
+                .banner-text--1 {
+                    font-family: "Yanone Kaffeesatz";
+                    padding-top: 37px;
+                    padding-left: 11px;
+                    line-height: 45px;
+                    padding-right: 12px;
+                    margin-left: 75px;
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: #fff;
+                }
+
+                .banner-text--2 {
+                    font-family: "Yanone Kaffeesatz";
+                    margin-left: 75px;
+                    font-size: 1.80rem;
+                    font-weight: 300;
+                    color: #fff;
+                }
+
+                .banner-text--3 {
+                    font-family: "Yanone Kaffeesatz";
+                    padding: 5px 27px;
+                    line-height: 20px;
+                    margin-left: 73px;
+                    font-size: .85rem;
+                    font-weight: 500;
+                    color: #fff;
+                }
             }
 
 
@@ -249,12 +335,85 @@ header {
         .container-2--child-2 {
             background-image: url("../src/assets/img/3-1.jpg");
             background-repeat: no-repeat;
-            margin-top: 6%;
-            height: 154px;
+            margin-top: 4%;
+            height: 215px;
+            justify-content: center;
+            display: flex;
 
             p {
                 display: inline-block;
+                align-self: center;
             }
+
+            .banner-text--1 {
+                color: #fdba3e;
+                font-family: "Yanone Kaffeesatz";
+                font-size: 2rem;
+                font-weight: 300;
+            }
+
+            .banner-text--2 {
+                font-family: "Yanone Kaffeesatz";
+                font-size: 4rem;
+                font-weight: 700;
+                color: #fff;
+            }
+
+
         }
     }
+}
+
+.pizza-header {
+
+    ul {
+        width: 1200px;
+        border-bottom:1px solid #9b959b;
+        list-style-type: none;
+        text-align: center;
+        font-family: "Yanone Kaffeesatz";
+        margin: 0px auto;
+        
+    }
+
+    &__list {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            color: #9b959b;
+            font-size: 2rem;
+            font-weight: 300;
+            padding: 0px 25px;
+        }
+    }
+}
+
+.pizza-sets {
+    display: flex;
+    width: 1200px;
+    margin: 70px auto;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__container:hover {
+        border: 7px solid #9f9f9f;
+    }
+
+    &__text-1 {
+        font-family: "Yanone Kaffeesatz";
+        font-weight: 400;
+        font-size: 1.50rem;
+        color: #2d2b2d;
+    }
+
+    &__text-2 {
+        font-family: "Yanone Kaffeesatz";
+        padding: 8px 69px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
 }
