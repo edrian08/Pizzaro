@@ -144,10 +144,75 @@ header {
 }
 .paralax__text-1 {
   color: #e63434;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 60px;
 }
-.paralax__text-2 {
+.paralax__text-2--child-1 {
   color: #fff;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: -1px;
+  font-stretch: condensed;
+  align-self: center;
+}
+.paralax__text-2--child-2 {
+  color: #fff;
+  font-size: 10vw;
+  padding: 40px 0px;
+  font-family: "Yanone Kaffeesatz";
+}
+.paralax__col-2 {
+  display: flex;
+  flex-direction: column;
+}
+.paralax__col-2 span {
+  padding: 11px 1px;
 }
 .paralax h1 {
   text-align: center;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-second--col {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  justify-content: space-around;
+  padding: 70px 0px;
+}
+.section-second--col__container-1 {
+  background-image: url("../src/assets/img/2.jpg");
+  width: 47%;
+  background-repeat: no-repeat;
+}
+.section-second--col__container-2 {
+  width: 47%;
+}
+.section-second--col__container-2 .container-2--child-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-second--col__container-2 .container-2--child-1 .container2__banner-1 {
+  background-image: url("../src/assets/img/5-1.jpg");
+  background-repeat: no-repeat;
+  width: 47%;
+  height: 210px;
+}
+.section-second--col__container-2 .container-2--child-1 .container2__banner-2 {
+  background-image: url("../src/assets/img/4-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 210px;
+  width: 47%;
+}
+.section-second--col__container-2 .container-2--child-2 {
+  background-image: url("../src/assets/img/3-1.jpg");
+  background-repeat: no-repeat;
+  margin-top: 6%;
+  height: 154px;
+}
+.section-second--col__container-2 .container-2--child-2 p {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,8 @@ body, button, input, textarea {
     font-weight: 400;
 }
 
+
+
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -166,13 +168,93 @@ header {
 
     &__text-1 {
         color: #e63434;
+        font-family: "Yanone Kaffeesatz";
+        font-size: 60px;
     }
 
-    &__text-2 {
+    &__text-2--child-1 {
         color: #fff;
+        font-size: 50px;
+        font-weight: 200;
+        letter-spacing: -1px;
+        font-stretch: condensed;
+        align-self: center;
+    }
+
+    &__text-2--child-2 {
+        color: #fff;
+        font-size: 10vw;
+        padding: 40px 0px;
+        font-family: "Yanone Kaffeesatz";
+        
+    }
+
+    &__col-2 {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            padding: 11px 1px;
+        }
     }
 
     h1 {
         text-align: center;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: center;
+    }
+}   
+
+// Section Two Banner
+.section-second--col {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    justify-content: space-around;
+    padding: 70px 0px;
+
+    &__container-1 {
+        background-image: url("../src/assets/img/2.jpg");
+        width: 47%;
+        background-repeat: no-repeat;
+    }
+
+    &__container-2 {
+        width: 47%;
+
+        .container-2--child-1 {
+            display: flex;
+            justify-content: space-between;
+
+            .container2__banner-1 {
+                background-image: url("../src/assets/img/5-1.jpg");
+                background-repeat: no-repeat;
+                width: 47%;
+                height: 210px;
+            }
+
+            .container2__banner-2 {
+                background-image: url("../src/assets/img/4-1.jpg");
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 210px;
+                width: 47%;
+                
+            }
+
+
+        }
+
+        .container-2--child-2 {
+            background-image: url("../src/assets/img/3-1.jpg");
+            background-repeat: no-repeat;
+            margin-top: 6%;
+            height: 154px;
+
+            p {
+                display: inline-block;
+            }
+        }
     }
 }
