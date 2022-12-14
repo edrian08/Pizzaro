@@ -8,7 +8,10 @@ body, button, input, textarea {
     font-weight: 400;
 }
 
-
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(./fonts/HelveticaNeue\ Light.ttf);
+}
 
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -459,9 +462,9 @@ header {
     
 
     &__text-1 {
-        font-family: "Yanone Kaffeesatz";
-        font-weight: 400;
-        font-size: 1.50rem;
+        font-family: "HelveticaNeue";
+        font-weight: 500;
+        font-size: 1.20rem;
         color: #2d2b2d;
     }
 
@@ -469,7 +472,10 @@ header {
         font-family: "Yanone Kaffeesatz";
         padding: 8px 8px;
         font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.6;
         font-style: italic;
+        color: #999791;
         width: 300px;
     }
 
@@ -674,4 +680,15 @@ header {
 
 
 
+}
+
+// Section 6
+
+.section-6 {
+    
+    &__container {
+        display: block;
+        width: 1200px;
+        margin: 0px auto;
+    }
 }
