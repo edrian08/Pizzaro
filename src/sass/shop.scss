@@ -1,0 +1,275 @@
+#location option {
+    color:#2d2b2d;
+    background-color: #fff;
+}
+
+.filter {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 4.236em;
+    border-bottom: 1px solid #ebeaf1;
+    padding-bottom: 20px;
+    margin-bottom: 48px;
+
+    #ordering {
+        padding: 10px;
+        padding-left: 20px;
+        background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) no-repeat right 1em center;
+        background-size: 8px 10px;
+        -webkit-appearance: none;
+        color: #8c8c8c;
+        border-radius: 25px;
+        border: 1px solid #ebeaef;
+    }
+
+    #grouping {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 55px;
+        background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) no-repeat right 1em center;
+        background-size: 8px 10px;
+        -webkit-appearance: none;
+        color: #8c8c8c;
+        border-radius: 25px;
+        border: 1px solid #ebeaef;
+    }
+
+    #ordering::-ms-expand {
+        display: none;
+    }
+
+    &__item-2 {
+        width: 155px;
+        font-weight: 700;
+        font-size: .80rem;
+        background-color: #f7f7f7;
+        color: #2d2b2d;
+        text-align: center;
+        border-radius: 25px;
+
+        p {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        i {
+            display: inline;
+            font-size: 0.9rem;
+            margin: 2px 5px;
+        }
+
+    }
+}
+
+.foods {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__side-container {
+        width: 255px;
+
+        .foods__nav {
+
+            ul {
+                background-color: #f7f7f7;
+                padding: 13px 0px;
+                border-radius: 15px;
+
+                li {
+                    border-bottom: 1px solid #d9d9d9;
+                    padding: 6px 0px;
+                    margin: 0px 30px;
+                    font-size: .85rem;
+                    color: #333e48;
+
+                    i {
+                        margin-right: 18px;
+                        font-size: 1.5rem;
+                        color: #a3a3a3;
+                    }
+                }
+            }
+        }
+
+        .foods__search {
+
+            .search-product {
+                position: absolute;
+                width: 210px;
+                border-radius: 30px;
+                padding: 10px 20px;
+                border: none;
+                background: #f7f7f7;
+            }
+
+            i {
+                position: relative;
+                padding: 14px;
+                margin-left: 200px;
+                font-size: 1.1rem;
+                color: #b4b4b4;
+            }
+        }
+    }
+
+    &__product {
+        width: 865px;
+        display: flex;
+        padding-bottom: 3.8em;
+        border-bottom: 1px solid #e9e9e9;
+
+        .foods__description {
+            padding: 62px;
+        }
+
+        .foods__text-1 {
+            font-weight: 100;
+            margin-bottom: 6px;
+        }
+
+        .foods__text-2 {
+            font-family: 'HelveticaNeue';
+            font-size: .80rem;
+            font-style: italic;
+            padding-left: 40px;
+            line-height: 23px;
+        }
+
+        .foods__btn--container {
+            width: 220px;
+
+            i {
+                position: absolute;
+                padding: 10px 36px;
+                color: #2b2b2b;
+                font-size: 14px;
+            }
+
+            .btn {
+                padding: 11px 0px;
+                border-radius: 31px;
+                border: none;
+                width: 220px;
+                font-weight: 600;
+                color: #2b2b2b;
+            }
+
+        }
+
+        .foods__btn--container:hover i{
+            color: #fff;
+        }
+
+        .foods__btn--container:hover input{
+            color: #fff;
+            background-color: #c00a27;
+            cursor: pointer;
+        }
+
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+        &__product {
+        width: 865px;
+        display: flex;
+        padding-bottom: 3.8em;
+        border-bottom: 1px solid #e9e9e9;
+
+        .foods__description {
+            padding: 62px;
+        }
+
+        .foods__text-1 {
+            font-weight: 100;
+            margin-bottom: 6px;
+        }
+
+        .foods__text-2 {
+            font-family: 'HelveticaNeue';
+            font-size: .80rem;
+            font-style: italic;
+            padding-left: 40px;
+            line-height: 23px;
+        }
+
+        .foods__btn--container {
+
+            i {
+                position: absolute;
+                padding: 10px 36px;
+                color: #2b2b2b;
+                font-size: 14px;
+            }
+
+            .btn {
+                padding: 11px 59px;
+                border-radius: 31px;
+                border: none;
+                font-weight: 600;
+                color: #2b2b2b;
+            }
+        }
+    }
+
+        .pagination {
+            margin: 2.1em auto;
+
+            ul {
+                text-align: center;
+                display: inline-block;
+
+                li {
+                    display: inline-block;
+                    margin: 0px 10px;
+
+                    a {
+                        color: #817f81;
+                        font-size: .90rem;
+                        padding: 15px 20px;
+                        border-radius: 25px;
+                        border: 1px solid #d7d7d7;
+                    }
+
+                    a:hover {
+                        
+                        background-color: rgba(0,0,0,.05);
+                        border-color: rgba(0,0,0,.05);
+                    
+                    }
+                }
+
+
+            }
+
+            &__nxt {
+
+                input {
+                    display: inline-block;
+                    padding: 10px 44px;
+                    border: 1px solid #d7d7d7;
+                    background: #fff;
+                    font-size: .80rem;
+                    border-radius: 30px;
+                    margin-left: 10px;
+                    
+                }
+
+                input:hover {
+                    background: rgba(0,0,0,.05);
+                    border-color: rgba(0,0,0,.05);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    
+}
