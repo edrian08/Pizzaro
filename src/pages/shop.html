@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <div id="header">
             <div class="logo__container">
                 <a href="#">
@@ -127,26 +127,645 @@
             <div class="foods__side-container">
                 <div class="foods__nav">
                     <ul>
-                        <li><i class="po po-pizza"></i>Pizza</li>
-                        <li><i class="po po-burger"></i>Burgers</li>
-                        <li><i class="po po-salads"></i>Salad</li>
-                        <li><i class="po po-tacos"></i>Tacos</li>
-                        <li><i class="po po-wraps"></i>Wrap</li>
-                        <li><i class="po po-wraps"></i>Fries</li>
-                        <li><i class="po po-wraps"></i>Drinks</li>
+                        <a href=""><li><i class="po po-pizza"></i>Pizza</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-burger"></i>Burgers</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-salads"></i>Salad</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-tacos"></i>Tacos</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-wraps"></i>Wrap</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-wraps"></i>Fries</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
+                        <a href=""><li><i class="po po-wraps"></i>Drinks</li><i class="fi fi-rr-angle-small-right arrow-right"></i><span></span></a>
                     </ul>
                 </div>
                 <div class="foods__search">
                     <input class="search-product" placeholder="Search Products..." type="text">
                     <i class="po po-search"></i>
                 </div>
+                <div class="best-deals">
+                    <h2 class="best-deals__title">Best Deals</h2>
+                    <div class="best-deals__items">
+                        <img src="../assets/img/28-300x300.jpg" alt="juice">
+                        <div class="item">
+                            <p class="item__text-1">Orange Juice</p>
+                            <p class="item__text-2">£1.90</p>
+                        </div>
+                    </div>
+                    <div class="best-deals__items">
+                        <img src="../assets/img/22-300x300.jpg" alt="juice">
+                        <div class="item">
+                            <p class="item__text-1">Coke Bottle</p>
+                            <p class="item__text-2">£2.90</p>
+                        </div>
+                    </div>
+                    <div class="best-deals__items">
+                        <img src="../assets/img/13-1-300x300.jpg" alt="juice">
+                        <div class="item">
+                            <p class="item__text-1">Hawaii Vegetarian Pizza</p>
+                            <p class="item__text-2">£39.80</p>
+                        </div>
+                    </div>
+                    <div class="best-deals__items">
+                        <img src="../assets/img/2-1-300x300.jpg" alt="juice">
+                        <div class="item">
+                            <p class="item__text-1">Grand Italiano</p>
+                            <p class="item__text-2">£19.90</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="foods__container">
                 <div class="foods__product">
-                    <img class="foods__img" src="../assets/img/pizza-6-300x300.png" alt="">
+                    <img class="foods__img" src="../assets/img/pizza-3-300x300.png" alt="">
                     <div class="foods__description">
-                        <h3 class="foods__text-1">Summer Pizza</h3>
-                        <p class="foods__text-2">Shrimp, Red Capsicum, Green Capsicum, Onion, Chilli flakes, Lemon Pepper, Mozzarella, finished with Aioli
+                        <h3 class="foods__text-1">Apricot Chicken</h3>
+                        <p class="foods__text-2">Crispy bacon, tasty ham, pineapple, onion and stretchy mozzarella, finished with a BBQ swirl.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-8-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Bacon Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/48-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">BBQ chicken breast</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/77-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Black Coffee</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/59-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Blueberry Shake</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/52-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Bolognese Pasta</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-7-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Cheese Butter</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-3-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Chicken Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/pizza-5-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Chicken Hawaii</h3>
+                        <p class="foods__text-2">Extra-virgin olive oil, mozzarella cheese, thinly-sliced steak meat, garlic, green peppers, mushrooms and tomatoes
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/70-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Chocolate cake</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/80-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Chocolate Muffin</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/22-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Cola Bottle</h3>
+                        <p class="foods__text-2 price">£2.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-5-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Country Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-4-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Double Beef Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-7-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Double Cheese</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/67-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Fresh Lime</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/2-1-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Grand Italiano</h3>
+                        <p class="foods__text-2">Quisque pretium turpis non tempus cursus. Nulla consequat, mi nec pellentesque imperdiet, mi quam congue magna, tristique commodo.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/13-1-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Hawaii Vegetarian Pizza</h3>
+                        <p class="foods__text-2">Mouth watering pepperoni, cabanossi, mushroom, capsicum, black olives and stretchy mozzarella, seasoned with garlic and oregano.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/76-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Hot Cappuccino</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/83-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Ice Lime Cola</h3>
+                        <p class="foods__text-2 price">£2.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/65-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Iced Coffee</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/33-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Iced tea</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/31-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Iced Tea Bottle</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/pizza-4-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Italiano Original</h3>
+                        <p class="foods__text-2">Ricotta, sun dried tomatoes, garlic, mozzarella cheese, topped with lightly drizzled red sauce, pesto, and fresh basil
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/82-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Kiwi Smoothie</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/66-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Lemonades Drink</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/53-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Molto Tagliatelle</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/68-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Muffin Chocolate</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-2-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Mushroom Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/28-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Orange Juice</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/burgers-6-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Original Burger</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/42-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Pene Salmone</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/pizza-7-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Pepperoni Calzone</h3>
+                        <p class="foods__text-2">Piled with shrimp, calamari, clams, mussels, surimi and stretchy mozzarella, seasoned with tangy lemon pepper.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/pizza-1-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Pepperoni Pizza</h3>
+                        <p class="foods__text-2">Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green olives, black olives, fresh tomatoes.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/79-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Pizzaro Coffee</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/78-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Plain Tea</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/3-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Primo Meat</h3>
+                        <p class="foods__text-2">Mouth watering pepperoni, cabanossi, mushroom, capsicum, black olives and stretchy mozzarella,
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/71-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Red Chocolate Cake</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/72-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Red Velvet Cake</h3>
+                        <p class="foods__text-2 price">£1.50
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/40-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Spaghetti Bolognese</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/64-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Stawberry Ice</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/57-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Strawberry Shake</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/81-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Strawberry Tea</h3>
+                        <p class="foods__text-2 price">£1.90
                         </p>
                         <div class="foods__btn--container">
                             <a href="">
@@ -170,6 +789,105 @@
                         </div>
                     </div>
                 </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/1-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Supreme Pizza</h3>
+                        <p class="foods__text-2">Ricotta, sun dried tomatoes, garlic, mozzarella cheese, topped with lightly drizzled red sauce, pesto, and fresh basil
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/46-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Tagliatelle Molto</h3>
+                        <p class="foods__text-2">A mighty meaty double helping of all the reasons you love our burger.
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/63-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Trio Cafe</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/pizza-2-300x300.png" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Trio Cheese</h3>
+                        <p class="foods__text-2">Mouth watering pepperoni, cabanossi, mushroom, capsicum, black olives and stretchy mozzarella,
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/24-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Tropicana Juice</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/9-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Vegge Lover</h3>
+                        <p class="foods__text-2">Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green olives, black olives, fresh tomatoes
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foods__product">
+                    <img class="foods__img" src="../assets/img/45-300x300.jpg" alt="">
+                    <div class="foods__description">
+                        <h3 class="foods__text-1">Water Bottle</h3>
+                        <p class="foods__text-2 price">£1.90
+                        </p>
+                        <div class="foods__btn--container">
+                            <a href="">
+                                <i class="fi fi-sr-check"></i>
+                                <input class="btn" type="button" value="Select Options">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="pagination">
                     <ul>
                         <li><a href="#">1</a></li>

@@ -1,0 +1,86 @@
+.second-header {
+  background-image: url("../assets/img/05-HomePage-FullWidth-cwt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: cover;
+  padding: 20px 0px;
+}
+.second-header .header-pizza {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px;
+}
+.second-header .header-pizza ul {
+  flex-grow: 1;
+}
+.second-header .header-pizza ul li {
+  display: inline-block;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.second-header .header-pizza .user-login {
+  flex-grow: 2;
+}
+.second-header .header-pizza .user-login p {
+  font-size: 0.7rem;
+  color: #fff;
+}
+.second-header .header-pizza .cart-btn {
+  flex-grow: 2;
+}
+.second-header .header-pizza .cart-btn a {
+  display: flex;
+  align-items: center;
+}
+.second-header .header-pizza .cart-btn a i {
+  font-size: 1.1rem;
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 21px;
+  color: #fff;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.second-header .header-pizza .cart-btn a p {
+  font-size: 0.75rem;
+  color: #fff;
+}
+.second-header .header-pizza .cart-btn a p span {
+  font-weight: 700;
+}
+.second-header .pizza-title {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-top: 20px;
+  padding: 10vh 0px;
+}
+.second-header .breadcrumbs-header {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.75rem;
+}
+.second-header .breadcrumbs-header p:nth-child(1) {
+  display: flex;
+}
+.second-header .breadcrumbs-header p:nth-child(1) i {
+  font-size: 0.85rem;
+  padding: 3px 0px;
+  position: relative;
+}
+.second-header .breadcrumbs-header p:nth-child(1) a {
+  color: #fff;
+  padding-right: 10px;
+}
+.second-header .breadcrumbs-header p {
+  padding: 0 6px;
+}/*# sourceMappingURL=pizza.css.map */
