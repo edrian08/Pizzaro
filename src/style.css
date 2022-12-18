@@ -35,7 +35,7 @@ a {
   margin: 17px 0px;
 }
 
-header {
+.main-header {
   background-color: #c12527;
   padding-top: 20px;
 }
@@ -925,6 +925,44 @@ ul {
   background-color: #f7f7f7;
   padding: 13px 0px;
   border-radius: 15px;
+  margin-bottom: 50px;
+}
+.foods__side-container .foods__nav ul .arrow-right {
+  font-size: 1.4rem;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -36px;
+  z-index: 1;
+  display: none;
+}
+.foods__side-container .foods__nav ul span {
+  color: #d7d7d7;
+  position: absolute;
+  margin-left: 234px;
+  padding: 0px 1px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  margin-top: -41px;
+  background: #c00a27;
+  transform: rotateZ(-47deg);
+  display: none;
+}
+.foods__side-container .foods__nav ul a:hover li {
+  background: #c00a27;
+  margin: 0px;
+  padding: 6px 30px;
+  color: #fff;
+  font-weight: 600;
+}
+.foods__side-container .foods__nav ul a:hover .arrow-right {
+  display: inline-block;
+}
+.foods__side-container .foods__nav ul a:hover span {
+  display: inline-block;
+}
+.foods__side-container .foods__nav ul a:hover i {
+  color: #fff;
 }
 .foods__side-container .foods__nav ul li {
   border-bottom: 1px solid #d9d9d9;
@@ -937,6 +975,55 @@ ul {
   margin-right: 18px;
   font-size: 1.5rem;
   color: #a3a3a3;
+}
+.foods__side-container .foods__search {
+  margin-bottom: 30px;
+}
+.foods__side-container .foods__search .search-product {
+  position: absolute;
+  width: 210px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  background: #f7f7f7;
+}
+.foods__side-container .foods__search i {
+  position: relative;
+  padding: 14px;
+  margin-left: 200px;
+  font-size: 1.1rem;
+  color: #b4b4b4;
+}
+.foods__side-container .best-deals {
+  margin-bottom: 70px;
+}
+.foods__side-container .best-deals__title {
+  font-weight: 100;
+  font-family: "HelveticaNeue";
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px 0px;
+  margin-bottom: 10px;
+}
+.foods__side-container .best-deals__items {
+  display: flex;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.foods__side-container .best-deals__items img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.foods__side-container .best-deals__items .item__text-1 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #c00a27;
+}
+.foods__side-container .best-deals__items .item__text-2 {
+  font-size: 0.85rem;
+  color: #000;
+  font-family: "HelveticaNeue";
 }
 .foods__product {
   width: 865px;
@@ -957,6 +1044,13 @@ ul {
   font-style: italic;
   padding-left: 40px;
   line-height: 23px;
+}
+.foods__product .price {
+  font-size: 1rem;
+  font-style: inherit;
+  font-weight: 600;
+  padding-left: 0px;
+  margin: 18px 0px;
 }
 .foods__product .foods__btn--container {
   width: 220px;

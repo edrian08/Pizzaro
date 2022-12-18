@@ -79,6 +79,50 @@
                 background-color: #f7f7f7;
                 padding: 13px 0px;
                 border-radius: 15px;
+                margin-bottom: 50px;
+
+                .arrow-right {
+                    font-size: 1.4rem;
+                    position: absolute;
+                    margin-left: 240px;
+                    margin-top: -36px;
+                    z-index: 1;
+                    display:none;
+                }
+
+                span {
+                    color: #d7d7d7;
+                    position: absolute;
+                    margin-left: 234px;
+                    padding: 0px 1px;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 10px;
+                    margin-top: -41px;
+                    background: #c00a27;
+                    transform: rotateZ(-47deg);
+                    display:none;
+                }
+
+                a:hover li{
+                    background: #c00a27;
+                    margin: 0px;
+                    padding: 6px 30px;
+                    color: #fff;
+                    font-weight: 600;
+                }
+                
+                a:hover .arrow-right{
+                    display:inline-block;
+                }
+
+                a:hover span {
+                    display: inline-block;
+                }
+                
+                a:hover i {
+                    color: #fff;
+                }
 
                 li {
                     border-bottom: 1px solid #d9d9d9;
@@ -97,6 +141,7 @@
         }
 
         .foods__search {
+            margin-bottom: 30px;
 
             .search-product {
                 position: absolute;
@@ -107,12 +152,53 @@
                 background: #f7f7f7;
             }
 
+
             i {
                 position: relative;
                 padding: 14px;
                 margin-left: 200px;
                 font-size: 1.1rem;
                 color: #b4b4b4;
+            }
+        }
+
+        .best-deals {
+            margin-bottom: 70px;
+
+            &__title {
+                font-weight: 100;
+                font-family: 'HelveticaNeue';
+                font-size: 1.2rem;
+                border-bottom: 1px solid rgba(0,0,0,.05);
+                padding: 15px 0px;
+                margin-bottom: 10px;
+            }
+
+            &__items {
+                display: flex;
+                padding: 15px 0px;
+                border-bottom: 1px solid rgba(0,0,0,.05);
+                
+                img {
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 15px;
+                }
+
+                .item {
+
+                    &__text-1 {
+                        font-size: .75rem;
+                        font-weight: 700;
+                        color: #c00a27;
+                    }
+
+                    &__text-2 {
+                        font-size: .85rem;
+                        color: #000;
+                        font-family: 'HelveticaNeue';
+                    }
+                }
             }
         }
     }
@@ -138,6 +224,14 @@
             font-style: italic;
             padding-left: 40px;
             line-height: 23px;
+        }
+
+        .price {
+            font-size: 1rem;
+            font-style: inherit;
+            font-weight: 600;
+            padding-left: 0px;
+            margin: 18px 0px;
         }
 
         .foods__btn--container {
