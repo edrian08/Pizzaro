@@ -23,6 +23,10 @@ body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+select, input {
+    outline: none;
+}
+
 li {
     list-style-type: none;
 }
@@ -881,3 +885,5 @@ a {
 
 @import "./sass/login.scss";
 @import "./sass/shop.scss";
+@import "./sass/pizza.scss";
+@import "./sass/burgers.scss";

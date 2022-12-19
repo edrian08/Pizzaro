@@ -1,0 +1,17 @@
+.burger-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/img/05-HomePage-FullWidth-cata.jpg");
+}
+
+.hot-drinks-header {
+  background-color: #c00a27;
+  background-image: none;
+}
+
+.pasta-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/img/05-HomePage-FullWidth-vsts.jpg");
+}
+
+.cold-drinks-header {
+  background-color: #c00a27;
+  background-image: none;
+}/*# sourceMappingURL=burgers.css.map */
