@@ -15,3 +15,134 @@
     background-color: #c00a27;
     background-image: none;
 }
+
+// Blog Page Style
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+.blog {
+    flex-direction: row-reverse;
+    margin-top: 45px;
+
+    &__post {
+        width: 865px;
+        display: flex;
+        padding-bottom: 3.8em;
+        flex-direction: column;
+        
+        .blog__img {
+            width: inherit;
+        }
+
+        .blog__details {
+            padding: 25px 0px;
+        }
+
+        .blog__title {
+            font-weight: 200;
+            font-size: 1.4rem;
+            font-family: 'HelveticaNeue';
+            color: #434343;
+            margin-bottom: 6px;
+
+            i {
+                margin-right: 12px;
+            }
+        }
+
+        .text-1 {
+            color: #747474;
+            font-family: 'HelveticaNeue';
+            margin-bottom: 10px;
+        }
+
+        .blog-btn {
+            padding: 8px 42px;
+            border-radius: 30px;
+            border: none;
+            color: #333e48;
+            font-size: .80rem;
+            background-color: #efecec;
+        }
+
+        .blog-btn:hover {
+            background-color: #333e48;
+            border-color: #333e48;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .post-category {
+            padding-bottom: 6px;
+            border-bottom: 1px solid #ececec;
+            margin-bottom: 15px;
+
+            p {
+                display: inline;
+                font-weight: 100;
+                font-size: .75rem;
+                font-style: italic;
+                color: #878787;
+                letter-spacing: 1px;
+            }
+        }
+
+
+    }
+
+    .side-banner {
+        margin-bottom: 40px;
+
+        .img-container {
+            width: inherit;
+            display: flex;
+
+            .img-1 {
+                width: 100%;
+            }
+        }
+
+        .img-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px 15px;
+            border-width: 0 3px 3px 3px;
+            border-color: #e9e9e9;
+            border-style: solid;
+
+            img {
+                position: absolute;
+                margin: -75px;
+            }
+
+            .title {
+                margin-top: 80px;
+                margin-bottom: 15px;
+                font-size: 1.2rem;
+                font-stretch: condensed;
+                color: #1f1f1f;
+            }
+
+            p {
+                font-size: .85rem;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .socials {
+
+                .items {
+                    display: inline;
+
+                    a {
+                        color: #2d2b2d;
+                        padding: 0px 10px;
+                        font-size: 22.53px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

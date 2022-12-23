@@ -1,0 +1,266 @@
+// Resoponsive Design / Media Query
+@media screen and (max-width: 1199px) {
+
+    #header {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .header--nav .order-product {
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .paralax {
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            padding-bottom: 2vw;
+            padding-top: 2vw;
+            font-size: 5vw;
+        }
+    }
+
+    .paralax__text-2--child-1 span {
+        padding: 1px 1px;
+    }
+
+    .paralax__text-2--child-1 {
+        font-size: 4vw;
+    }
+
+    .paralax__text-2--child-2 {
+        padding: 15px 0px;
+    }
+
+    .section-second--col {
+        width: auto;
+    }
+
+    .section-second--col__container-2 .container-2--child-1 .container2__banner-1 {
+        background-position: center;
+    }
+
+
+
+    .section-second--col__container-2 .container-2--child-1 .container2__banner-1 {
+
+        .banner-text--1 {
+            margin-left: 0px;
+        }
+
+        .banner-text--2 {
+            margin-left: 0px;
+        }
+
+        .banner-text--3 {
+            margin-left: 0px;
+        }
+
+    }
+
+    .section-second--col__container-2 .container-2--child-1 .container2__banner-2 {
+
+        .banner-text--1 {
+            margin-left: 0px;
+        }
+
+        .banner-text--2 {
+            margin-left: 0px;
+        }
+
+        .banner-text--3 {
+            margin-left: 0px;
+        }
+    }
+
+    .pizza-header {
+        width: 82vw;
+
+        ul {
+            width: auto;
+            flex-wrap: wrap;
+
+            .pizza-header__list {
+                padding-top: 15px;
+            }
+        }
+    }
+
+    .section-second--col__container-1 .banner-text--1 {
+        font-size: 3rem;
+    }
+
+    .section-second--col__container-1 .banner-text--2 {
+        font-size: 2.5rem;
+    }
+
+    .pizza-sets {
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .section-6__container {
+        width: auto;
+    }
+
+    .section-6 {
+        padding: 160px 5vw;
+    }
+
+    .section-6__container div {
+        width: auto;
+    }
+
+    .section-7__container {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .section-7__item {
+        width: 287px;
+        padding-top: 35px;
+    }
+
+    .footer__container {
+        width: auto;
+    }
+
+    .footer__address ul li {
+        padding-top: 15px;
+    }
+
+    .account__container {
+        width: 950px;
+    }
+
+    .breadcrumbs .breadcrumbs__container {
+        width: auto;
+    }
+
+    .blog {
+        width: auto;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+        .foods__side-container {
+            width: 90%;
+            margin: 0px auto;
+        }
+    }
+
+    .foods__container {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .blog__post {
+        width: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 950px) {
+    .account__container {
+        width: 769px;
+    }
+
+  }
+  
+
+  @media screen and (max-width: 768px) {
+
+    #header {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .header--nav .order-product {
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .paralax {
+        height: 80vh;
+    }
+
+    .paralax h1 {
+        font-size: 12vw;
+    }
+
+    .paralax__text-2--child-1 {
+        font-size: 6vw;
+    }
+
+    .paralax__text-2--child-2 {
+        font-size: 12vw;
+    }
+
+    .section-second--col {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .section-second--col__container-1 {
+        padding-bottom: 50px;
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .section-second--col__container-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container-2--child-2 {
+            width: 100%;
+            background-size: cover;
+            margin-top: 40px;
+        }
+    }
+
+    .section-second--col__container-2 .container-2--child-1 {
+        flex-wrap: wrap;
+        width: 100%;
+
+        .container2__banner-1 {
+            width: 100%;
+            background-size: cover;
+            margin-bottom: 40px
+        } 
+
+        .container2__banner-2 {
+            width: 100%;
+            background-size: cover;
+        }
+
+        
+    }
+
+    .pizza-header {
+        width: 100%;
+    }
+
+    .pizza-promo__text-2 {
+        font-size: 3rem;
+    }
+
+    .pizza-header__list a {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .account__container {
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .account__container .or {
+        display: none;
+    }
+
+  }

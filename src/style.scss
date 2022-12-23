@@ -398,13 +398,11 @@ a {
 }
 
 .pizza-header {
-    width: 72vw;
-    border-bottom: 1px solid #e9e9e9;
-    padding: 0px 18px;
+    width: 1200px;
     margin: 70px auto;
 
     ul {
-        width: 1200px;
+        width: auto;
         border-bottom: 1px solid #e9e9e9;
         list-style-type: none;
         display: flex;
@@ -887,3 +885,4 @@ a {
 @import "./sass/shop.scss";
 @import "./sass/pizza.scss";
 @import "./sass/burgers.scss";
+@import "./sass/media-querry.scss";
