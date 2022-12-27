@@ -20,7 +20,7 @@ ul {
 }
 .breadcrumbs .breadcrumbs__container p {
   font-size: 0.9rem;
-  padding: 6px;
+  padding: 5px 15px;
 }
 .breadcrumbs .breadcrumbs__container i {
   padding: 9px 0px;

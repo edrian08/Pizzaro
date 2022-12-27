@@ -118,4 +118,93 @@
   padding: 0px 10px;
   font-size: 22.53px;
   text-decoration: none;
+}
+
+.product-page {
+  display: flex;
+  width: 1200px;
+  margin: 45px auto;
+  justify-content: space-around;
+}
+.product-page .product-image {
+  width: 47%;
+}
+.product-page .product-image img {
+  width: 100%;
+}
+.product-page .product-description {
+  width: 47%;
+}
+.product-page .product-description h1 {
+  font-family: "HelveticaNeue";
+  font-weight: 200;
+  color: #2d2b2d;
+  margin-bottom: 32px;
+}
+.product-page .product-description p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #2b2929;
+  margin-bottom: 10px;
+}
+.product-page .product-description .about-product {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+.product-page .product-description .product-size {
+  margin-bottom: 30px;
+}
+.product-page .product-description .product-size p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #2b2929;
+  margin-bottom: 10px;
+}
+.product-page .product-description .product-size div {
+  display: flex;
+  align-items: center;
+}
+.product-page .product-description .product-size div button {
+  border: 2px solid #f9f1db;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 11px;
+  color: #2b2929;
+  font-size: 0.75rem;
+  margin-right: 10px;
+  background-color: #fff;
+}
+.product-page .product-description .product-size div button:hover {
+  background-color: #ffcd00;
+  border: 2px solid #ffcd00;
+  cursor: pointer;
+}
+.product-page .product-description .product-size div p {
+  font-size: 1.1rem;
+  margin-right: 12px;
+  color: #2d2b2d;
+  font-weight: 100;
+}
+.product-page .product-description .product-add-to-cart {
+  background-color: #c00a27;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 15px 75px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.product-page .product-description .product-add-to-cart:hover {
+  background-color: #9a1b1f;
+  cursor: pointer;
+}
+.product-page .product-description .product-add-to-cart:before {
+  font-family: font-pizzaro;
+  content: "h";
+  line-height: 1;
+  margin-right: 0.6em;
+  font-size: 1.125em;
 }/*# sourceMappingURL=burgers.css.map */

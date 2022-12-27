@@ -4,12 +4,26 @@
     #header {
         width: auto;
         flex-wrap: wrap;
+        display: none;
     }
 
     .header--nav .order-product {
         flex-wrap: wrap;
         width: auto;
     }
+
+    .main-header {
+        padding-top: 0px;
+    }
+
+    .header--nav {
+        display: none;
+    }
+
+    .responsive-header {
+        display: flex;
+    }
+
 
     .paralax {
         background-position: center;
@@ -98,7 +112,7 @@
 
     .pizza-sets {
         flex-wrap: wrap;
-        width: auto;
+        width: 90%;
     }
 
     .section-6__container {
@@ -159,13 +173,83 @@
         width: auto;
     }
 
+    .filter {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .foods {
+        flex-wrap: wrap;
+        width: auto;
+        flex-direction: column-reverse;
+
+        &__side-container {
+            width: 85%;
+            margin: 0px auto;
+        }
+    }
+
+    .foods__product {
+        width: auto;
+    }
+
+    .foods__side-container .foods__search .search-product {
+        width: 80%;
+    }
+
+    .foods__side-container .foods__search i {
+        position: absolute;
+        margin-left: 0px;
+        left: 80%;
+    }
+
+    .foods__side-container .foods__nav ul a:hover span {
+        display: none;
+    }
+
+    .foods__side-container .foods__nav ul a:hover .arrow-right {
+        margin-left: 80%;
+    }
+
+    .second-header .header-pizza {
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .product-page {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+
   }
+
 
   @media screen and (max-width: 950px) {
     .account__container {
         width: 769px;
     }
 
+    .second-header .header-pizza {
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 700px) {
+    .filter__item-1 {
+        width: 100%;
+
+        select {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    .filter__item-2 {
+        width: 100%;
+    }
   }
   
 
@@ -263,4 +347,46 @@
         display: none;
     }
 
+    .foods__product {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+
+    .foods__product .foods__text-2 {
+        margin-bottom: 15px;
+    }
+
+    .foods__product .foods__btn--container {
+        width: auto;
+    }
+
+    .footer__address ul li:after {
+        content: "h";
+    }
+
+    .footer__address ul li:after {
+        display: none;
+
+    }
+
+    .footer__address ul {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .product-page {
+        width: 80%;
+    }
+
+    .product-page .product-image {
+        width: auto;
+    }   
+
+    .product-page .product-description {
+        width: auto;
+    }
   }
