@@ -14,6 +14,10 @@ body {
 }
 
 @font-face {
+  font-family: font-pizzaro;
+  src: url(./fonts/font-pizzaro.ttf);
+}
+@font-face {
   font-family: HelveticaNeue;
   src: url(./fonts/HelveticaNeue\ Light.ttf);
 }
@@ -52,6 +56,82 @@ a {
   justify-content: space-around;
   padding: 10px 0px;
   border-bottom: 1px solid #c83b3f;
+}
+
+.responsive-header {
+  display: none;
+  width: 90%;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.responsive-header button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.responsive-header button .open {
+  position: absolute;
+}
+.responsive-header button .open .menu-x {
+  visibility: visible;
+}
+.responsive-header button .close {
+  visibility: hidden;
+}
+.responsive-header .nav-visible {
+  left: 0px !important;
+}
+.responsive-header .container-nav {
+  position: fixed;
+  width: 310px;
+  left: -190%;
+  background-color: #333e48;
+  height: 100%;
+  top: 0px;
+  margin-top: 0px;
+  transition: left 0.2s;
+}
+.responsive-header .container-nav span {
+  cursor: pointer;
+  display: block;
+  padding: 0.857em 1.387em;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.responsive-header .container-nav span i {
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  font-size: 1rem;
+}
+.responsive-header .container-nav span:hover {
+  color: #e6e6e6;
+}
+.responsive-header .container-nav ul {
+  padding-top: 0px;
+}
+.responsive-header .container-nav ul i {
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.responsive-header .container-nav li {
+  padding: 0.857em 1.387em;
+  font-size: 0.9rem;
+}
+.responsive-header .container-nav a {
+  color: #fff;
+}
+.responsive-header .container-nav a i {
+  margin-right: 10px;
+}
+.responsive-header .container-nav a:hover {
+  color: #d5d1d1;
 }
 
 .nav__container {
@@ -734,7 +814,7 @@ ul {
 }
 .breadcrumbs .breadcrumbs__container p {
   font-size: 0.9rem;
-  padding: 6px;
+  padding: 5px 15px;
 }
 .breadcrumbs .breadcrumbs__container i {
   padding: 9px 0px;
@@ -1365,14 +1445,113 @@ ul {
   text-decoration: none;
 }
 
+.product-page {
+  display: flex;
+  width: 1200px;
+  margin: 45px auto;
+  justify-content: space-around;
+}
+.product-page .product-image {
+  width: 47%;
+}
+.product-page .product-image img {
+  width: 100%;
+}
+.product-page .product-description {
+  width: 47%;
+}
+.product-page .product-description h1 {
+  font-family: "HelveticaNeue";
+  font-weight: 200;
+  color: #2d2b2d;
+  margin-bottom: 32px;
+}
+.product-page .product-description p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #2b2929;
+  margin-bottom: 10px;
+}
+.product-page .product-description .about-product {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+.product-page .product-description .product-size {
+  margin-bottom: 30px;
+}
+.product-page .product-description .product-size p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #2b2929;
+  margin-bottom: 10px;
+}
+.product-page .product-description .product-size div {
+  display: flex;
+  align-items: center;
+}
+.product-page .product-description .product-size div button {
+  border: 2px solid #f9f1db;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 11px;
+  color: #2b2929;
+  font-size: 0.75rem;
+  margin-right: 10px;
+  background-color: #fff;
+}
+.product-page .product-description .product-size div button:hover {
+  background-color: #ffcd00;
+  border: 2px solid #ffcd00;
+  cursor: pointer;
+}
+.product-page .product-description .product-size div p {
+  font-size: 1.1rem;
+  margin-right: 12px;
+  color: #2d2b2d;
+  font-weight: 100;
+}
+.product-page .product-description .product-add-to-cart {
+  background-color: #c00a27;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 15px 75px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.product-page .product-description .product-add-to-cart:hover {
+  background-color: #9a1b1f;
+  cursor: pointer;
+}
+.product-page .product-description .product-add-to-cart:before {
+  font-family: font-pizzaro;
+  content: "h";
+  line-height: 1;
+  margin-right: 0.6em;
+  font-size: 1.125em;
+}
+
 @media screen and (max-width: 1199px) {
   #header {
     width: auto;
     flex-wrap: wrap;
+    display: none;
   }
   .header--nav .order-product {
     flex-wrap: wrap;
     width: auto;
+  }
+  .main-header {
+    padding-top: 0px;
+  }
+  .header--nav {
+    display: none;
+  }
+  .responsive-header {
+    display: flex;
   }
   .paralax {
     background-position: center;
@@ -1434,7 +1613,7 @@ ul {
   }
   .pizza-sets {
     flex-wrap: wrap;
-    width: auto;
+    width: 90%;
   }
   .section-6__container {
     width: auto;
@@ -1481,15 +1660,63 @@ ul {
   .blog__post {
     width: auto;
   }
-}
-@media screen and (max-width: 1199px) and (min-width: 1170px) {
+  .filter {
+    flex-wrap: wrap;
+    width: 85%;
+  }
   .foods {
-    width: 1140px;
+    flex-wrap: wrap;
+    width: auto;
+    flex-direction: column-reverse;
+  }
+  .foods__side-container {
+    width: 85%;
+    margin: 0px auto;
+  }
+  .foods__product {
+    width: auto;
+  }
+  .foods__side-container .foods__search .search-product {
+    width: 80%;
+  }
+  .foods__side-container .foods__search i {
+    position: absolute;
+    margin-left: 0px;
+    left: 80%;
+  }
+  .foods__side-container .foods__nav ul a:hover span {
+    display: none;
+  }
+  .foods__side-container .foods__nav ul a:hover .arrow-right {
+    margin-left: 80%;
+  }
+  .second-header .header-pizza {
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .product-page {
+    width: 90%;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 950px) {
   .account__container {
     width: 769px;
+  }
+  .second-header .header-pizza {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .filter__item-1 {
+    width: 100%;
+  }
+  .filter__item-1 select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .filter__item-2 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1563,5 +1790,37 @@ ul {
   }
   .account__container .or {
     display: none;
+  }
+  .foods__product {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .foods__product .foods__text-2 {
+    margin-bottom: 15px;
+  }
+  .foods__product .foods__btn--container {
+    width: auto;
+  }
+  .footer__address ul li:after {
+    content: "h";
+  }
+  .footer__address ul li:after {
+    display: none;
+  }
+  .footer__address ul {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .product-page {
+    width: 80%;
+  }
+  .product-page .product-image {
+    width: auto;
+  }
+  .product-page .product-description {
+    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
