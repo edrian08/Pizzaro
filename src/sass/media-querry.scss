@@ -221,6 +221,14 @@
         flex-wrap: wrap;
     }
 
+    .cart__steps span:after {
+        width: 22vw;
+    }
+
+    .cart {
+        width: auto;
+    }
+
 
 
   }
@@ -388,5 +396,13 @@
 
     .product-page .product-description {
         width: auto;
+    }
+
+    .cart__steps span:after {
+        width: 29vw;
+    }
+
+    .cart__steps {
+        width: 33.9%;
     }
   }
