@@ -162,6 +162,12 @@
     width: 90%;
     flex-wrap: wrap;
   }
+  .cart__steps span:after {
+    width: 22vw;
+  }
+  .cart {
+    width: auto;
+  }
 }
 @media screen and (max-width: 950px) {
   .account__container {
@@ -286,5 +292,11 @@
   }
   .product-page .product-description {
     width: auto;
+  }
+  .cart__steps span:after {
+    width: 29vw;
+  }
+  .cart__steps {
+    width: 33.9%;
   }
 }/*# sourceMappingURL=media-querry.css.map */
